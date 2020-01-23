@@ -1,0 +1,1 @@
+../etc/blahp/condor_local_submit_attributes.sh
