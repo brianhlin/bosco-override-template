@@ -8,6 +8,8 @@ Bosco is a component of the CE responsible for managing job submission to the co
 
 A common example is the binary path for the batch system's executables. Bosco expects to find the executables in `/usr/bin`, but the remote batch system may have binaries come from somewhere else. This option can be overriden in `bosco_override/glite/etc/blah.config`
 
+Batch system specific parameters can be added in the scripts found in `bosco_override/glite/etc/blahp/`
+
 ## How to use
 
 When preparing the configuration for a new SLATE OSG HostedCE you will need to setup a **git repository** which the application will use to clone the overrides to the remote cluster. 
