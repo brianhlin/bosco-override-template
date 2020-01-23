@@ -45,6 +45,6 @@ BoscoOverrides:
   GitKeySecret: none
 ```
 
-It is also possible to store these values in a private repository configured with a private key stored as a [SLATE Secret](https://slateci.io/docs/tools/).
+It is also possible to store these values in a private repository configured with a private key stored as a [SLATE Secret](https://github.com/slateci/slate-client-server/blob/master/resources/docs/client_manual.md#secret-commands).
 
 This repository can also be used as an example for what can be overriden to fix issues for an existing CE.
