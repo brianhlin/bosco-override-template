@@ -39,7 +39,7 @@ You are now ready to point your CE application config at your forked repoository
 # Bosco override dirs are expected in the following location in the git repo:
 #   <RESOURCE NAME>/bosco_override/
 BoscoOverrides:
-  Enabled: false
+  Enabled: true
   GitEndpoint: "https://github.com/slateci/utah-bosco.git"
   RepoNeedsPrivKey: false
   GitKeySecret: none
